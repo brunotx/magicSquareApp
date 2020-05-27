@@ -1,0 +1,51 @@
+// .sidenav {
+//     position: fixed;
+//     height: 100%;
+//     width: 220px;
+//     top: 0;
+//     left: 0;
+//     background-color: #111111;
+//     overflow-x: hidden;
+//     padding-top: 20px;
+//     span {
+//         padding: 6px 8px 6px 16px;
+//         text-decoration: none;
+//         font-size: 25px;
+//         font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+//         color: #818181;
+//         display: block;
+//     }.selected {
+//         color: #e1e1e1;
+//     }:hover {
+//         color: #f1f1f1;
+//         cursor: pointer;
+//     }
+// }
+
+app-eventChat {
+    width: 40%;
+    height: 100%;
+    flex: 1;
+    float: right;
+}
+
+.conteiner {
+    width:60%;
+    height:100%; 
+    flex: 1;
+}
+
+.square {
+    // line-height:0;
+    float: left;
+    flex: 1;
+    width:90%;
+    height:300px;
+    border-style: solid;
+    border-color: #111111;
+    border-width: 10px;
+}
+
+.video {
+    text-align: center;
+}
